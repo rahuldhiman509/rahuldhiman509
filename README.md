@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/rahuldhiman509" width="160" style="border-radius:50%;" />
-</p>
-
 # 👋 Hi, I'm Rahul Dhiman
 
 🚀 **Senior Full-Stack Developer | AI & Machine Learning Engineer | Backend Architect | Automation & FinTech Enthusiast**  
