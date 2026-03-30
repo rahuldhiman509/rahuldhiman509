@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <title>Rahul Dhiman — Full-Stack & AI Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link
@@ -1731,7 +1732,6 @@
         <a href="#projects" data-s="projects">Projects</a>
         <a href="#experience" data-s="experience">Experience</a>
         <a href="#contact" data-s="contact">Contact</a>
-        <a href="#hire" data-s="hire">Hire</a>
         <a href="#hire" class="btn-cta">Hire Me →</a>
       </div>
       <button class="menu-toggle" id="menuBtn" onclick="toggleMob()" style="display:none;">
@@ -2446,7 +2446,7 @@
     window.addEventListener('scroll', () => {
       document.getElementById('nav').classList.toggle('scrolled', scrollY > 60);
       const y = scrollY + 80;
-      ['home', 'about', 'skills', 'projects', 'experience', 'contact', 'hire'].forEach(id => {
+      ['home', 'about', 'skills', 'projects', 'experience', 'contact'].forEach(id => {
         const s = document.getElementById(id); if (!s) return;
         const l = document.querySelector('.nav-links a[data-s="' + id + '"]');
         if (l) l.classList.toggle('active', y >= s.offsetTop && y < s.offsetTop + s.offsetHeight);
